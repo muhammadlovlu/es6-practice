@@ -23,4 +23,17 @@ const FULLNAME = `${FIRSTNAME} ${LASTNAME} How are you`;
 console.log(FULLNAME);
 
 
+/////////////////////////
+const firstLine = "Welcome to my portfolio";
+const secondLine = "Thank you.";
+const allLine = `${firstLine} ${secondLine}`;
+console.log(allLine);
 
+
+
+// Show line wise text 
+const firstline = "hello My Friend";
+const secondline = "How may i help you";
+const allline = `${firstline} 
+${secondline}`;
+console.log(allline);
