@@ -10,5 +10,8 @@ const areatwo = [122,133,144,155,166,177,188, 199];
 const totalArea = `Area Total : ${areaone.concat(areatwo)}`;
 console.log(totalArea);
 
-////////////////////
-
+// threedots technic , break more than one variables array in a single array 
+const firstPin = [12,45,35,65,75,95];
+const secondPin = [12,95,75,4522,65];
+const totalPin = [...firstPin, ...secondPin];
+console.log(totalPin);
