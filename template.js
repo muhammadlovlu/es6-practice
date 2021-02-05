@@ -37,3 +37,16 @@ const secondline = "How may i help you";
 const allline = `${firstline} 
 ${secondline}`;
 console.log(allline);
+
+
+
+/////////////////////////////////
+const currentBalance = "Your current balance is :";
+const depositAmount = "Deposited :";
+const totalBalance = "Your Total Balance :";
+const clientBalance = 
+`${currentBalance} ${500} 
+${depositAmount} ${100}
+${totalBalance} ${500+100}`;
+console.log(clientBalance);
+
