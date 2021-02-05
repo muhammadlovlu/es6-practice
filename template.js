@@ -16,7 +16,7 @@ const LastName = 'Sally';
 const FullName = `${FirstName} ${LastName} How may i help You`;
 console.log(FullName);
 
-
+// Variable name should be camel case if there is word more than one . Its just a practice purpose i used capital letter .
 const FIRSTNAME = 'David';
 const LASTNAME = 'Jourge';
 const FULLNAME = `${FIRSTNAME} ${LASTNAME} How are you`;
