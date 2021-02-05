@@ -14,7 +14,17 @@ digits [6] = 200; // repalaced 25 digits
 
 
 
-// try to  
+// changing the const element by index
+digits [0] = "Russel";
+digits [1] = 'Fedrick';
+digits [2] = 'Nick';
+digits [3] = 'Richael';
+digits [4] = 'Lara';
+digits [5] = 'Cathrine';
+digits [6] = 'James';
+
+
+// Adding new element
 digits.push = 250, 99;
 // digits.push(260);
 console.log(digits);
