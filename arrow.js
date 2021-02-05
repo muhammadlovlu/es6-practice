@@ -50,4 +50,37 @@ const totalEggsPrice = eggsPrice(12) ;
 console.log(totalEggsPrice);
 
 
+// arrow function with Two parameter
+const grocery = (chocolate, candy) => chocolate + candy ;
+const purchaseItems = grocery(10, 15);
+console.log(purchaseItems);
 
+// arrow function with three parameters
+const items = (pen, rubber, pencil) => pen + rubber + pencil;
+const totalPurchase = items(10, 5, 3);
+console.log(totalPurchase);
+
+
+// empty parameter
+const add9 = () => 9;
+console.log(add9());
+
+
+// Math with arrow function 
+const calculation = (digitsOne, digitsTwo) => {
+    const sum = digitsOne + digitsTwo;
+    const sub = digitsOne - digitsTwo;
+    const totalCalculation = sum + sub ;
+    return totalCalculation;
+}
+
+const totalCalculate = calculation(12 , 7);
+console.log(totalCalculate); /// output 24
+
+// math calculation with arrow function part - 2
+const fare = (distanceOne ,  distanceTwo) => {
+    const totalCost = distanceOne + distanceTwo;
+    return totalCost ;
+}
+const totalFare = fare(12, 32);
+console.log(totalFare);   /// output totalFare 44
