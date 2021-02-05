@@ -5,4 +5,8 @@ console.log('First Area :', areaOne);
 console.log('Second Area :', areaTwo);
 
 /////////////////////////////
-const 
+const areaone = [22,33,44,55,66,77,88,99];
+const areatwo = [122,133,144,155,166,177,188, 199];
+const totalArea = areaone.concat(areatwo);
+console.log(totalArea);
+
