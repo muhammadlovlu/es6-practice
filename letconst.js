@@ -29,7 +29,18 @@ digits.push = 250;
 // digits.push(260);
 console.log(digits);
 
-
+///////////////////////////
 let patientName ='Fed rickson';
 patientName = 'Nora';
-console.log(patientName)
+console.log(patientName);
+
+
+//////////////////////
+let sum = 0;
+ for(let i = 0; i<10; i++){
+     sum = sum + i;
+     console.log(i);
+ }
+ 
+
+
