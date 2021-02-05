@@ -15,3 +15,28 @@ const firstPin = [12,45,35,65,75,95];
 const secondPin = [12,95,75,4522,65];
 const totalPin = [...firstPin, ...secondPin];
 console.log(totalPin);
+
+
+/////////////////
+const ZovanSalary = 45000;
+const NadalSalary = 55000;
+const HamandSalary = 20000;
+const maximum = Math.max(ZovanSalary, NadalSalary, HamandSalary);
+console.log(maximum);
+
+////////////
+const bigNumber = [450, 750, 950];
+const big = Math.max(...bigNumber);
+console.log(big);
+
+
+// usage of threedots in a variable to get output of max number in an array  
+const allNumber = [450,666,8544,13954,1024,4456];
+const maxNumber = Math.max(...allNumber);
+console.log(maxNumber);
+
+
+// usage of threedots in a variable to get output of max number in an array 
+const allNumberTwo = [4457,2544,3655,8559,7546,3321];
+const maxResult = Math.max(...allNumberTwo);
+console.log(maxResult); 
