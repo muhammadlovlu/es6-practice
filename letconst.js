@@ -25,6 +25,11 @@ digits [6] = 'James';
 
 
 // Adding new element
-digits.push = 250, 99;
+digits.push = 250;
 // digits.push(260);
 console.log(digits);
+
+
+let patientName ='Fed rickson';
+patientName = 'Nora';
+console.log(patientName)
