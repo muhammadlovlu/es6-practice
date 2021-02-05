@@ -39,5 +39,15 @@ const orangePrice = orange => orange * 20 ;
 const totalOrangePrice = orangePrice(10) ;
 console.log(totalOrangePrice);
 
+// arrow function practice , banana price 
+const bananaPrice = banana => banana * 5 ;
+const totalBananaPrice = bananaPrice (12);
+console.log(totalBananaPrice);
+
+//arrow function practice , eggs price
+const eggsPrice = eggs => eggs * 4 ;
+const totalEggsPrice = eggsPrice(12) ;
+console.log(totalEggsPrice);
+
 
 
