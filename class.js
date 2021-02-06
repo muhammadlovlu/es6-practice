@@ -4,6 +4,7 @@ class Student {
         this.Name = studentName;
         this.Age = studentAge;
         this.Birth = studentBirth;
+        
     }
 }
 const student01 = new Student(400, "David", 10, '01.01.2000');
@@ -21,6 +22,7 @@ class employee {
         this.Name = Name;
         this.blood = Blood;
         this.sibling = Sibling;
+        this.company = "janshalo";
     }
 } 
 
