@@ -85,3 +85,42 @@ class Mango extends Origin{
 
 const mango =  new Mango ('Tilled', 'Red', '50$');
 console.log(mango);
+
+
+// in this example we will see how to write function inside template
+
+// class NewProduct {
+//     constructor(ID, BrandName, Size, Price){
+//         this.id = ID ;
+//         this.brand = BrandName;
+//         this.size = Size;
+//         this.price = Price;
+//     }
+//     getThePrice(){
+//         return this.price;
+//     }
+// }
+
+// const mozila = new NewProduct ('7000', 'Oz' , '12inch', '$ 450');
+// console.log(mozila.getThePrice());
+
+
+
+/////////
+
+class newProduct {
+    constructor (ID, BrandName, Color, Type, sn, MFG, Warranty){
+        this.id = ID;
+        this.brandName = BrandName;
+        this.color = Color;
+        this.type = Type ;
+        this.serial = sn ;
+        this.manufactured = MFG ;
+        this.warranty = Warranty;
+    }
+    WarrantyDate(){
+        return this.warranty;
+    }
+}
+const product001 = new newProduct ('56556', 'Restic', 'Red', 'USB', '45555555555', '1.1.2011', '1 Year');
+console.log(product001.WarrantyDate());
