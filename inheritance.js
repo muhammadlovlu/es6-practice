@@ -68,3 +68,20 @@ const keyboard1020 = new Keyboard('Dell', '362254645', '3Years', 'Red', '4500', 
 console.log(Keyboard1000);
 console.log(keyboard1010);
 console.log(keyboard1020);
+//  inheritance example four 
+class Origin {
+    constructor(){
+        this.country = 'United State';
+    }
+}
+class Mango extends Origin{
+    constructor(Type, color, Price){
+        super ();
+        this.type = Type ; 
+        this.color = color;
+        this.price = Price;
+    }
+}
+
+const mango =  new Mango ('Tilled', 'Red', '50$');
+console.log(mango);
